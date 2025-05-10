@@ -8,5 +8,3 @@ sc=StandardScaler()
 x_final=sc.fit_transform(x)
 x_train,x_test,y_train,y_test=train_test_split(x_final,y,test_size=0.2,random_state=42)
 
-
-print(y_train)
